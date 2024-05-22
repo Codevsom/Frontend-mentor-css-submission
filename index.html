@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="shortcut icon" href="favicon-32x32.png">
+  <style type="text/css" media="all">
+  @font-face{
+    font-family:'Inter-Bold';
+    src:url('Inter-Bold.ttf')
+  }
+   @font-face{
+    font-family:'Inter-SemiBold';
+    src:url('Inter-SemiBold.ttf');
+  }
+   @font-face{
+    font-family:'Inter-Regular';
+    src:url('Inter-Regular.ttf');
+  }
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin: 0;
+      padding:0;
+      background:#000000;
+    }
+    .container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+    }
+    .card{
+      background:#1f1f1f;
+        display:grid;
+      place-items: center;
+      padding:10px;
+      margin:10px;
+      text-align:center;
+      border-radius:5px;
+    }
+    h2{
+      color:white;
+      font-family:"Inter-SemiBold";
+      margin-bottom:5px;
+    }
+    .location{
+      color:#b1cf54;
+      font-family:"Inter-Bold";
+      margin-top:0;
+    }
+    p{
+      color:#fff;
+      font-family:"Inter-Regular";
+
+    }
+    img{
+      border-radius:50%;
+      height:100px;
+      width:100px;
+    }
+    .links a{
+      display: block;
+      padding:10px 100px;
+      color:white;
+      background:#333333;
+      text-decoration:none;
+      border-radius:10px;
+      margin:10px;
+      font-family:"Inter-SemiBold";
+      transition:0.3s;
+    }
+    .links a:hover{
+      background:#C4F82A;
+      color:black;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div>
+      <img src="avatar-jessica.jpeg" alt="avatar-jessica.jpeg">
+    </div>
+    <div>
+      <h2>Jessica Randall</h2>
+      <p class="location">London,United Kingdom</p>
+      <p>"Front-end developer and avid reader."</p>
+    </div>
+    <div class="links">
+      <a href="#">GitHub</a>
+      <a href="#">Frontend Mentor</a>
+      <a href="#">Linkedin</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
